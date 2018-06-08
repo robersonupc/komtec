@@ -1,0 +1,19 @@
+{
+    "name": "robersonupc/komtec",
+    "authors": [
+        {
+            "name": "RDS Systemas",
+            "email": "rdssystemas@gmail.comr"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\rdssystemas\\php-classes\\src"
+        }
+    }
+}
